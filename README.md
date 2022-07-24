@@ -2,17 +2,17 @@
 
 The Project is Automatic Irrigation System. To run the Object on you local machine there are 2 methods.
 
-####1. IDE
-####2. Command Line
+#### 1. IDE
+#### 2. Command Line
 
-####Using IDE 
+#### Using IDE 
 For This you have to import the project in your IDE and after that the edit the properties of Mysql according 
 to your machine in application.properties. 
 
 You Should have Schema/Database name existed in your SQL. In my Case I use name Plot
 So to create that run SQL query **CREATE SCHEMA schema_name**; and after that run application via IDE
 
-####Using Command Line
+#### Using Command Line
 You have to perform the same steps as above and  after performing and changing application.properties. Open CMD
 and run command  **mvn clean install** in case the test are failing then use **mvn clean install -DskipTests** and after that type **java -jar target/plot-0.0.1-SNAPSHOT.jar**
 
